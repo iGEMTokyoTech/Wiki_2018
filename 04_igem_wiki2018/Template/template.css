@@ -1,0 +1,39 @@
+@charset "utf-8"
+
+/*page title*/
+
+h1{
+  text-align: center;
+  color: #6fbb9a;
+}
+/*botton installed 06/27
+from https://saruwakakun.com/html-css/reference/buttons*/
+
+.part_line{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    border-bottom: solid 3px #343a40;
+    border-left: solid 3px #343a40;
+    color: #343a40;
+    transition: .4s;
+    }
+
+.part_line:hover {
+    padding-left: 0.7em;
+    padding-right: 0.3em;
+}
+/*page title*/
+h1{
+  text-align: center;
+}
+/*link */
+a{
+  color: #FFCC33;
+  text-decoration:none;
+}
+a:hover{
+  text-decoration: underline;
+}
