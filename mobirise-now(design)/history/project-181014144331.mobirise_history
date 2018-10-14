@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "iGEM design",
-    "currentPage": "Experiments.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -33,13 +33,11 @@
     "siteFonts": [],
     "versionFirst": "4.7.6",
     "uniqCompNum": 58,
-    "versionPublish": "4.8.4",
+    "versionPublish": "4.8.5",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/findingflavi-logo-128x52_1.png",
+    "favicon": "@PROJECT_PATH@/assets/images/findingflavi-logo-128x52-1.png",
     "noImageResize": "",
-    "google-analytics": "",
-    "publishType": "local",
-    "publishPath": "file:///Users/kaz_i/Documents/IGEM_GIT/mobirise-now(design)"
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
