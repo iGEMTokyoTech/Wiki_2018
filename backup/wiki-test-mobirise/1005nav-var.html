@@ -1,0 +1,98 @@
+<html>
+<style>
+	#home_logo, #sideMenu { display:none; }
+	#sideMenu, #top_title, .patrollink  {display:none;}
+	#content { margin-left:0px; margin-top: -40px; padding:0px; width:100%;}
+	body {background-color:white; }
+	#bodyContent h1, #bodyContent h2, #bodyContent h3, #bodyContent h4, #bodyContent h5 { margin-bottom: 0px; }
+
+	.judges-will-not-evaluate { border: 4px solid #e4dede; padding: 2% !important; width: 92%!important;}
+
+</style>
+
+<script>
+
+    // Inspired from http://2018.igem.org/Template:Oxford
+    // allow button on the black menu bar to show/hide the side menu
+    function hide_show_menu() {
+
+      // in case you preview mode is selected, the menu is hidden for better visibility
+      if (window.location.href.indexOf("submit") >= 0) {
+        $(".igem_2018_menu_wrapper").hide();
+      }
+
+      // if the black menu bar has been loaded
+        if (document.getElementById('bars_item')) {
+
+        // when the "bars_item" has been clicked
+        $("#bars_item").click(function() {
+          $("#sideMenu").hide();
+
+          // show/hide the menu wrapper
+          $(".igem_2018_menu_wrapper").fadeToggle("100");
+        });
+        }
+
+      // because the black menu bars loads at a different time than the rest of the page, this function is set on a time out so it can run again in case it has not been loaded yet
+      else {
+            setTimeout(hide_show_menu, 15);
+      }
+    }
+
+
+</script>
+
+  <link rel="stylesheet" href="http://2018.igem.org/Team:Tokyo_Tech/mobirise/web/asset/mobirise-icons/mobirise-icons-css?action=raw&amp;ctype=text/css">
+  <link rel="stylesheet" href="http://2018.igem.org/Team:Tokyo_Tech/mobirise/tether/tether-min-css?action=raw&amp;ctype=text/css">
+  <link rel="stylesheet" href="http://2018.igem.org/Team:Tokyo_Tech/mobirise/bootstrap/css/bootstrap-min-css?action=raw&amp;ctype=text/css">
+  <link rel="stylesheet" href="http://2018.igem.org/Team:Tokyo_Tech/mobirise/bootstrap/css/bootstrap-grid-min-css?action=raw&amp;ctype=text/css">
+  <link rel="stylesheet" href="http://2018.igem.org/Team:Tokyo_Tech/mobirise/bootstrap/css/bootstrap-reboot-min-css?action=raw&amp;ctype=text/css">
+  <link rel="stylesheet" href="http://2018.igem.org/Team:Tokyo_Tech/mobirise/socicon/css/styles-css?action=raw&amp;ctype=text/css">
+  <link rel="stylesheet" href="http://2018.igem.org/Team:Tokyo_Tech/mobirise/dropdown/css/style-css?action=raw&amp;ctype=text/css">
+  <link rel="stylesheet" href="http://2018.igem.org/Team:Tokyo_Tech/mobirise/theme/css/style-css?action=raw&amp;ctype=text/css">
+  <link rel="stylesheet" href="http://2018.igem.org/Team:Tokyo_Tech/mobirise/mobirise/css/mbr-additional-css?action=raw&amp;ctype=text/css">
+
+<body>
+  <section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
+
+
+
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="http://2018.igem.org/Team:Tokyo_Tech/">
+                         <img src="http://2018.igem.org/wiki/images/a/a8/T--Tokyo_Tech--logo_01.png.png" alt="Tokyo Tech" style="height: 4.5rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="http://2018.igem.org/Team:Tokyo_Tech/">
+                        Tokyo Tech
+                    </a></span>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item dropdown">
+                    <a class="nav-link link text-white dropdown-toggle display-4" href="page3.html" data-toggle="dropdown-submenu" aria-expanded="false"><span class="mbri-star mbr-iconfont mbr-iconfont-btn"></span>
+                        Project</a><div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="http://2018.igem.org/Team:Tokyo_Tech/Description">Description</a><a class="text-white dropdown-item display-4" href="http://2018.igem.org/Team:Tokyo_Tech/Parts">&nbsp;Parts</a><a class="text-white dropdown-item display-4" href="page3.html" aria-expanded="false">Collaboration</a><a class="text-white dropdown-item display-4" href="http://2018.igem.org/Team:Tokyo_Tech/Achievement" aria-expanded="false">Achievement</a></div>
+                </li>
+                <li class="nav-item dropdown"><a class="nav-link link text-white display-4" href="http://2018.igem.org/Team:Tokyo_Tech/Human_Practices" aria-expanded="false"><span class="mbri-idea mbr-iconfont mbr-iconfont-btn"></span>
+                        Human Practice</a></li><li class="nav-item dropdown"><a class="nav-link link text-white display-4" href="http://2018.igem.org/Team:Tokyo_Tech/Model" aria-expanded="false"><span class="mbri-growing-chart mbr-iconfont mbr-iconfont-btn"></span>
+                        Modelling</a></li><li class="nav-item dropdown">
+
+                        <a class="nav-link link text-white dropdown-toggle display-4" href="page4.html" data-toggle="dropdown-submenu" aria-expanded="false"><span class="mbri-quote-left mbr-iconfont mbr-iconfont-btn"></span>
+                        Experiments</a><div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="http://2018.igem.org/Team:Tokyo_Tech/Experiments">Over View</a><a class="text-white dropdown-item display-4" href="Project-Constraction.html" aria-expanded="false">Constraction</a><a class="text-white dropdown-item display-4" href="Particle-Production.html" aria-expanded="false">Particle Production<br></a><a class="text-white dropdown-item display-4" href="Functional-Evaluation.html" aria-expanded="false">Fuctional Evaluation of Particle</a><a class="text-white dropdown-item display-4" href="http://2018.igem.org/Team:Tokyo_Tech/InterLab" aria-expanded="false">InterLab</a></div>
+
+                </li><li class="nav-item dropdown"><a class="nav-link link text-white dropdown-toggle display-4" href="page6.html" data-toggle="dropdown-submenu" aria-expanded="false"><span class="mbri-rocket mbr-iconfont mbr-iconfont-btn"></span>About Us</a><div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="http://2018.igem.org/Team:Tokyo_Tech/Team">Team<br></a>
+									<a class="text-white dropdown-item display-4" href="http://2018.igem.org/Team:Tokyo_Tech/Attributions" aria-expanded="false">Attribution</a></div></li></ul>
+
+        </div>
+    </nav>
+</section>
